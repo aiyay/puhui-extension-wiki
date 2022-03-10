@@ -1,0 +1,151 @@
+[
+  {
+    "label": "外网",
+    "key": "1",
+    "webList":[
+      {
+        "title": "云OA",
+        "link": "https://www.yunoa.com/oa-inclution/home",
+        "countList": []
+      },
+      {
+        "title": "金蝶云星瀚",
+        "link": "https://erp.inclution.com",
+        "countList": []
+      },
+      {
+        "title": "SRM测试环境",
+        "link": "https://srm-test.chinaboilers.com/srm-inclution/home",
+        "countList": [
+          {
+            "count": "15906814196",
+            "pwd":"test123456"
+          },
+          {
+            "count": "13136166390",
+            "pwd": "test123456"
+          }
+        ]
+      },
+      {
+        "title": "云MES测试环境",
+        "link": "https://ali-test.puhuiboss.com/home",
+        "countList": [
+          {
+            "count": "18205858252",
+            "pwd":"stringabc"
+          },
+          {
+            "count": "13588722434",
+            "pwd": "hello1234"
+          }
+        ]
+      },
+      {
+        "title": "云MES预发布",
+        "link": "https://demo-pre.puhuiboss.com",
+        "countList": [
+          {
+            "count": "18205858252",
+            "pwd":"Phui123456"
+          }
+        ]
+      },
+      {
+        "title": "业务支撑平台",
+        "link": "https://support-ali-test.puhuiboss.com/bss",
+        "countList": [
+          {
+            "count": "18205858252",
+            "pwd":"Phui123456"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "label": "内网",
+    "key": "2",
+    "webList":[
+      {
+        "title": "云OA",
+        "link": "http:///10.10.201.246/oa-inclution/home",
+        "countList": []
+      },
+      {
+        "title": "禅道",
+        "link": "http://10.10.201.226:8666/zentao/my/",
+        "countList": []
+      },
+      {
+        "title": "YApi",
+        "link": "http://10.10.201.226:8666/zentao/my/",
+        "countList": []
+      },
+      {
+        "title": "gitLab",
+        "link": "http://gitlab.inclution.com/",
+        "countList": []
+      },
+      {
+        "title": "Atom",
+        "link": "http://atom.inclution.com/",
+        "countList": []
+      },
+      {
+        "title": "AtomPro",
+        "link": "http://atom-pro.inclution.com/",
+        "countList": []
+      },
+      {
+        "title": "jenkins",
+        "link": "http://10.10.201.223：8080/",
+        "countList": []
+      },
+      {
+        "title": "云SRM-featureSRM",
+        "link": "http://feature-srm-3-0-0.srm.inclution.com/home",
+        "countList": [
+          {
+            "count": "1596814196",
+            "pwd": "test123456"
+          },
+          {
+            "count": "13188889999",
+            "pwd": "Phui123456"
+          }
+        ]
+      },
+      {
+        "title": "云MES-featureMes",
+        "link": "http://feature-mes-commondata.k8s.inclution.com/home",
+        "countList": [
+          {
+            "count": "13588722434",
+            "pwd": "hello1234"
+          }
+        ]
+      },
+      {
+        "title": "云MES-featureOA",
+        "link": "http://feature-oa-2-0-mes.k8s.inclution.com/home",
+        "countList": [
+          {
+            "count": "18458878048",
+            "pwd": "test123456"
+          }
+        ]
+      },
+      {
+        "title": "业务支撑平台",
+        "link": "http://support-ali-test.puhuiboss.com/bss/use/login",
+        "countList": []
+      },
+      {
+        "title": "蒲惠智能运维管理平台",
+        "link": "http://devops-phmanu.cn/auth/login",
+        "countList": []
+      }
+    ]
+  }
+]

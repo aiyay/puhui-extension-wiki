@@ -1,18 +1,28 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <!-- <Bookstore msg="Welcome to Your Vue.js App"/> -->
+    <Note v-if="pageA == 'note'" :closeIcon='true' />
+    <About v-if="pageA == 'about'" :closeIcon='true'/>
   </div>
 </template>
 
-<script>
-// @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
+<script setup>
+import Bookstore from '@/components/Bookstore.vue'
+import Note from '@/views/Note.vue'
+import About from '@/views/About.vue'
+import { onMounted, ref } from 'vue'
 
-export default {
-  name: 'Home',
-  components: {
-    HelloWorld
+const pageA = ref('')
+
+onMounted(() => {
+  const pageAction = localStorage.getItem('pageAction')
+  if (pageAction) {
+    pageA.value = pageAction
   }
-}
+})
 </script>
+<style scoped>
+.home {
+  min-width: 1366px;
+}
+</style>

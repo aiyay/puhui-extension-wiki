@@ -1,0 +1,36 @@
+{
+   "background": {
+      "persistent": true,
+      "scripts": [ "hot-reload.js","background.js" ]
+   },
+   "browser_action": {
+      "default_icon": {
+         "19": "static/icon.png",
+         "38": "static/icon.png"
+      },
+      "default_popup": "static/index.html#/popup",
+      "default_title": "浦惠Wiki"
+   },
+   "chrome_url_overrides": {
+      "newtab": "static/index.html#/about"
+   },
+   "content_scripts": [ {
+      "js": ["./content-script.js" ],
+      "matches": [ "<all_urls>" ]
+   } ],
+   "content_security_policy": "script-src 'self' 'unsafe-eval' https://www.google-analytics.com https://*.bytegoofy.com https://*.bytescm.com https://*.pstatp.com; object-src 'self'",
+   "description": "提供文档。",
+   "icons": {
+      "128": "static/icon.png",
+      "16": "static/icon.png",
+      "48": "static/icon.png"
+   },
+   "manifest_version": 2,
+   "name": "浦惠Wiki",
+   "offline_enabled": true,
+   "permissions": [ "storage", "cookies", "contextMenus", "tabs", "alarms", "http://*/", "https://*/" ],
+   "short_name": "浦惠Wiki",
+   "update_url": "https://123",
+   "version": "0.0.1",
+   "web_accessible_resources": [ "*" ]
+}
